@@ -1,0 +1,16 @@
+{
+    "RPCURL": "127.0.0.1:8027",
+    "WriteLog": true,
+    "LogLevel": "debug",
+    "LogFile": "chart_service",
+    "DataBase": {
+        "DataBaseMode": "single",
+        "DataBaseConnUrls":["127.0.0.1:27017"],
+        "DataBaseName":"seele",
+        "UseAuthentication": false,
+        "User": "scan",
+        "Pwd": "123456"
+    },
+    "ShardCount":4
+}
+  
